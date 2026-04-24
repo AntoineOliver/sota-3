@@ -1,0 +1,42 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+      base-path: /
+      path-mapping:
+        health: internal-health
+        prometheus: metrics
+  endpoint:
+    health:
+      show-details: always
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
+services:
+  delivery:
+    base-url: http://delivery-service:8080/deliveries
+  user:
+    base-url: http://user-service:8080/users
+  payment:
+    base-url: http://payment-service:8080/payments
+  drone:
+    base-url: http://dronefleet-service:8080/drones
+  notification:
+    base-url: http://notification-service:8080/notifications

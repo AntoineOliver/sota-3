@@ -1,0 +1,236 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "User Service API",
+    "description": "API for managing users and interacting with delivery service via orchestration.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8081",
+      "description": "Local User Service"
+    }
+  ],
+  "paths": {
+
+    "/users/register": {
+      "post": {
+        "summary": "Register a new user",
+        "tags": ["User"],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "required": true,
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "required": true,
+            "schema": { "type": "string", "format": "email" }
+          },
+          {
+            "name": "password",
+            "in": "query",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "User successfully registered",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/User" }
+              }
+            }
+          },
+          "409": {
+            "description": "User already exists"
+          }
+        }
+      }
+    },
+
+    "/users/{userId}/info": {
+      "get": {
+        "summary": "Get user's information",
+        "tags": ["User"],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "User info",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/UserInfo" }
+              }
+            }
+          },
+          "404": {
+            "description": "User not found"
+          }
+        }
+      }
+    },
+
+    "/users/{userId}/delivery/create": {
+      "post": {
+        "summary": "Create a new delivery for the user",
+        "tags": ["Delivery Orchestration"],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/DeliveryRequestDTO" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Delivery created successfully",
+            "content": {
+              "application/json": {
+                "schema": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/users/{userId}/delivery/{deliveryId}/status": {
+      "get": {
+        "summary": "Get delivery status for a user",
+        "tags": ["Delivery Orchestration"],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "deliveryId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Delivery status",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/DeliveryStatusDTO" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/users/{userId}/delivery/{deliveryId}/eta": {
+      "get": {
+        "summary": "Get delivery ETA for a user",
+        "tags": ["Delivery Orchestration"],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "deliveryId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Remaining ETA",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/RemainingDurationDTO" }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  },
+
+  "components": {
+
+    "schemas": {
+
+      "User": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "email": { "type": "string" }
+        }
+      },
+
+      "UserInfo": {
+        "type": "object",
+        "properties": {
+          "userId": { "type": "string" },
+          "name": { "type": "string" },
+          "email": { "type": "string" },
+          "registeredAt": { "type": "string", "format": "date-time" }
+        }
+      },
+
+      "DeliveryRequestDTO": {
+        "type": "object",
+        "properties": {
+          "pickupLat": { "type": "number" },
+          "pickupLng": { "type": "number" },
+          "dropoffLat": { "type": "number" },
+          "dropoffLng": { "type": "number" },
+          "packageWeight": { "type": "number" }
+        },
+        "required": [
+          "pickupLat", "pickupLng", "dropoffLat", "dropoffLng", "packageWeight"
+        ]
+      },
+
+      "DeliveryStatusDTO": {
+        "type": "object",
+        "properties": {
+          "deliveryId": { "type": "string" },
+          "status": { "type": "string" }
+        }
+      },
+
+      "RemainingDurationDTO": {
+        "type": "object",
+        "properties": {
+          "deliveryId": { "type": "string" },
+          "remainingMinutes": { "type": "integer" }
+        }
+      }
+
+    }
+  }
+}

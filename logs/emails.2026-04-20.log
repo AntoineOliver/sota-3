@@ -1,0 +1,130 @@
+[USER=toto-743] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: toto-743
+→ Subject: Welcome!
+→ Body:
+Hello toto, your account is created
+→ OccurredAt: 2026-04-20T17:25:46.522246393Z
+----------------------------------------------------
+
+[USER=toto-109] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: toto-109
+→ Subject: Welcome!
+→ Body:
+Hello toto, your account is created
+→ OccurredAt: 2026-04-20T17:32:44.359215458Z
+----------------------------------------------------
+
+[USER=tototo-907] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: tototo-907
+→ Subject: Welcome!
+→ Body:
+Hello tototo, your account is created
+→ OccurredAt: 2026-04-20T17:33:19.416763663Z
+----------------------------------------------------
+
+[USER=tototo-455] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: tototo-455
+→ Subject: Welcome!
+→ Body:
+Hello tototo, your account is created
+→ OccurredAt: 2026-04-20T17:48:17.842737283Z
+----------------------------------------------------
+
+[USER=tototo-266] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: tototo-266
+→ Subject: Welcome!
+→ Body:
+Hello tototo, your account is created
+→ OccurredAt: 2026-04-20T17:52:15.212188899Z
+----------------------------------------------------
+
+[USER=tototo-033] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: tototo-033
+→ Subject: Welcome!
+→ Body:
+Hello tototo, your account is created
+→ OccurredAt: 2026-04-20T19:58:58.954636121Z
+----------------------------------------------------
+
+[USER=ttt-102] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: ttt-102
+→ Subject: Welcome!
+→ Body:
+Hello ttt, your account is created
+→ OccurredAt: 2026-04-20T20:06:39.636976728Z
+----------------------------------------------------
+
+[USER=tototo-076] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: tototo-076
+→ Subject: Welcome!
+→ Body:
+Hello tototo, your account is created
+→ OccurredAt: 2026-04-20T20:18:14.642273033Z
+----------------------------------------------------
+
+[USER=tototo-104] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: tototo-104
+→ Subject: Welcome!
+→ Body:
+Hello tototo, your account is created
+→ OccurredAt: 2026-04-20T20:18:57.999767475Z
+----------------------------------------------------
+
+[USER=SagaUser-460] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: SagaUser-460
+→ Subject: Welcome!
+→ Body:
+Hello SagaUser, your account is created
+→ OccurredAt: 2026-04-20T21:21:41.265641213Z
+----------------------------------------------------
+
+[USER=SagaUser-460] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: SagaUser-460
+→ Subject: Delivery Created
+→ Body:
+Your delivery order-0001 has been created
+→ OccurredAt: 2026-04-20T21:21:41.638721298Z
+----------------------------------------------------
+
+[USER=SagaUser-009] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: SagaUser-009
+→ Subject: Welcome!
+→ Body:
+Hello SagaUser, your account is created
+→ OccurredAt: 2026-04-20T21:22:59.913226140Z
+----------------------------------------------------
+
+[USER=SagaUser-009] 
+----------------------------------------------------
+ EMAIL SIMULATED
+→ To user: SagaUser-009
+→ Subject: Delivery Created
+→ Body:
+Your delivery order-0001 has been created
+→ OccurredAt: 2026-04-20T21:23:00.262711754Z
+----------------------------------------------------
+
