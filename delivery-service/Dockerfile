@@ -1,10 +1,22 @@
-FROM eclipse-temurin:17-jdk-alpine
+FROM eclipse-temurin:17-jdk-alpine AS builder
+
+WORKDIR /workspace
+
+COPY gradlew gradlew
+COPY gradle gradle
+COPY settings.gradle.kts build.gradle.kts ./
+COPY delivery-service delivery-service
+
+RUN chmod +x gradlew \
+    && ./gradlew --no-daemon :delivery-service:bootJar
+
+FROM eclipse-temurin:17-jre-alpine
 
 RUN apk add --no-cache curl
 
 WORKDIR /app
 
-COPY build/libs/*.jar app.jar
+COPY --from=builder /workspace/delivery-service/build/libs/*.jar app.jar
 
 EXPOSE 8080
 
