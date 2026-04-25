@@ -5,7 +5,334 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62d13f8e-faa6-494f-8c50-7b34ab8e7217" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sota-2.iml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml:Zone.Identifier" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Explication.md:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUIDE_ASSIGNMENT3_PDF_READY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/Dockerfile:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/build.gradle.kts:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/ApiGatewayApplication.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/config/RestTemplateConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/config/SecurityConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/infrastructure/controller/ApiGatewayController.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/infrastructure/controller/AuthController.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/infrastructure/controller/HealthController.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/infrastructure/proxy/BaseHttpProxy.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/infrastructure/proxy/DeliveryProxy.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/infrastructure/proxy/DroneProxy.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/infrastructure/proxy/NotificationProxy.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/infrastructure/proxy/PaymentProxy.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/infrastructure/proxy/UserProxy.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/security/JwtAuthenticationFilter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/sota/gateway/security/JwtUtil.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/com/sota/gateway/e2e/ApiGatewayEndToEndTest.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/Dockerfile:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/build.gradle.kts:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/config/JacksonConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/config/SecurityConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/ddd/Aggregate.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/ddd/DomainEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/ddd/DomainService.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/ddd/Entity.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/ddd/Factory.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/ddd/Repository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/ddd/ValueObject.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/hexagonal/Adapter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/hexagonal/InBoundPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/common/hexagonal/OutBoundPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/DeliveryServiceDocSwagger.json:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/Dockerfile:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/dto/DeliveryDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/dto/DeliveryRequestDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/dto/DeliveryStatusDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/dto/DroneAssignmentRequestDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/dto/DroneAssignmentResponseDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/dto/PaymentRequestDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/dto/PaymentResponseDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/dto/PaymentStateDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/dto/RemainingDurationDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/exception/DeliveryAlreadyCompletedException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/exception/DeliveryAlreadyStartedException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/exception/DeliveryFailedException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/exception/DeliveryNotFoundException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/exception/DroneAssignmentFailedException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/exception/InvalidDeliveryRequestException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/exception/PaymentFailedException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/exception/RefundFailedException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/exception/UserNotFoundException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/port/DeliveryRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/port/DeliveryService.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/port/DomainEventPublisher.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/port/DroneFleetPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/port/PaymentPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/saga/DeliverySaga.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/saga/DeliverySagaOrchestrator.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/saga/DeliverySagaRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/saga/DeliverySagaState.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/application/service/DeliveryServiceImpl.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/delivery-context.md:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/event/DeliveryCanceledEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/event/DeliveryCompletedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/event/DeliveryCreatedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/event/DeliveryEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/event/DeliveryFailedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/event/DeliveryStartedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/event/DroneRequestedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/event/EtaUpdatedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/event/WaitForPickUpEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/model/Delivery.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/model/DeliveryId.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/model/DeliveryRequest.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/model/DeliveryStatus.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/model/Distance.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/model/ETA.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/model/Location.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/model/Price.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/model/RemainingDuration.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/model/Weight.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/domain/service/DeliveryCalculator.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/DeliveryServiceMain.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/adapter/DroneFleetAdapter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/adapter/PaymentAdapter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/controller/DeliveryController.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/controller/HealthController.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/event/DomainEventPublisherImpl.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/event/DroneEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/event/DroneEventListener.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/event/PaymentEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/event/PaymentEventListener.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/mapper/DeliveryMapper.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/mapper/DomainEventMapper.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/mapper/DroneEventMapper.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/mapper/PaymentEventMapper.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/repository/InMemoryDeliveryRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/saga/InMemoryDeliverySagaRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/delivery_service/infrastructure/scheduler/schedulerDelivery.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/resources/application.yml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/test/java/delivery_service/application/saga/DeliverySagaOrchestratorUnitTest.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/test/java/delivery_service/infrastructure/adapter/PaymentAdapterIntegrationTest.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-service/src/test/java/delivery_service/infrastructure/controller/DeliveryControllerComponentTest.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/Dockerfile:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/build.gradle.kts:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/config/JacksonConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/config/SecurityConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/ddd/Aggregate.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/ddd/DomainEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/ddd/DomainService.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/ddd/Entity.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/ddd/Factory.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/ddd/Repository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/ddd/ValueObject.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/hexagonal/Adapter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/hexagonal/InBoundPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/common/hexagonal/OutBoundPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/Dockerfile:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/DroneServiceDocSwagger.json:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/dto/BaseCreatedResponseDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/dto/BaseInfoDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/dto/DroneAssignmentRequestDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/dto/DroneAssignmentResponseDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/dto/DroneCreatedResponseDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/dto/DroneInfoDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/exception/BaseAlreadyExistsException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/exception/BaseNotFoundException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/exception/DeliveryNotFoundException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/exception/DroneAlreadyExistsException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/exception/DroneNotFoundException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/port/BaseRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/port/DeliveryServicePort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/port/DroneRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/port/DroneService.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/port/DroneTelemetryPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/port/EventPublisherPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/application/service/DroneServiceImpl.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/event/DroneAssignedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/event/DroneAtPickupEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/event/DroneBackedToBaseEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/event/DroneCannotBeAssignedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/event/DroneDeliveredEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/event/DroneEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/event/DroneLeftBaseEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/event/DroneLocationUpdatedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/event/DroneMaintenanceScheduledEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/event/DroneReturnedToBaseEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/model/Base.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/model/BaseId.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/model/Battery.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/model/Drone.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/model/DroneId.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/model/DroneState.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/model/Location.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/model/MaintenanceStatus.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/domain/service/DroneCalculator.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/infrastructure/DroneServiceMain.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/infrastructure/adapter/DeliveryAdapter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/infrastructure/adapter/DroneTelemetryAdapter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/infrastructure/controller/DroneFleetControler.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/infrastructure/controller/HealthController.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/infrastructure/event/DroneEventPublisher.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/infrastructure/repository/InMemoryBaseRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/infrastructure/repository/InMemoryDroneRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/java/dronefleet_service/infrastructure/scheduler/DroneSimulationScheduler.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dronefleet-service/src/main/resources/application.yml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/emails.2026-04-19.log:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/emails.2026-04-20.log:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/emails.log:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/Dockerfile:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/build.gradle.kts:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/config/JacksonConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/config/SecurityConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/ddd/Aggregate.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/ddd/DomainEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/ddd/DomainService.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/ddd/Entity.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/ddd/Factory.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/ddd/Repository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/ddd/ValueObject.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/hexagonal/Adapter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/hexagonal/InBoundPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/common/hexagonal/OutBoundPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/Dockerfile:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/application/port/EmailSenderPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/application/port/NotificationService.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/application/service/NotificationServiceImpl.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/domain/NotificationMessage.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/EmailSenderSimulator.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/NotificationServiceMain.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/controller/HealthController.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/event/DeliveryEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/event/DeliveryListener.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/event/PaymentEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/event/PaymentListener.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/event/UserEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/event/UserListener.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/mapper/DeliveryMapper.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/mapper/PaymentMapper.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/notification_service/infrastructure/mapper/UserMapper.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.yml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/logback-spring.xml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/Dockerfile:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/build.gradle.kts:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/config/JacksonConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/config/SecurityConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/ddd/Aggregate.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/ddd/DomainEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/ddd/DomainService.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/ddd/Entity.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/ddd/Factory.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/ddd/Repository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/ddd/ValueObject.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/hexagonal/Adapter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/hexagonal/InBoundPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/common/hexagonal/OutBoundPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/Dockerfile:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/PaymentServiceDocSwagger.json:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/dto/PaymentIdDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/dto/PaymentRefundResponseDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/dto/PaymentRequestDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/dto/PaymentResponseDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/dto/PaymentStateDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/exception/DeliveryNotFoundException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/exception/PaymentNotFoundException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/exception/RefundFailedException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/exception/UserNotFoundException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/port/EventPublisherPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/port/PaymentProcessPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/port/PaymentRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/port/PaymentService.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/application/service/PaymentServiceImpl.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/domain/event/PaymentEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/domain/event/PaymentFailedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/domain/event/PaymentInitiatedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/domain/event/PaymentSucceededEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/domain/event/RefundFailedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/domain/event/RefundIssuedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/domain/event/RefundSucceededEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/domain/model/Amount.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/domain/model/Payment.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/domain/model/PaymentId.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/infrastructure/PaymentServiceMain.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/infrastructure/adapter/PaymentProcessorAdapter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/infrastructure/controller/HealthController.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/infrastructure/controller/PaymentController.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/infrastructure/event/PaymentEventPublisher.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/infrastructure/mapper/PaymentMapper.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/payment_service/infrastructure/repository/InMemoryPaymentRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/resources/application.yml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/test/java/payment_service/domain/model/PaymentEventSourcingUnitTest.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/test/java/payment_service/infrastructure/controller/PaymentControllerComponentTest.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/test/java/payment_service/infrastructure/repository/InMemoryPaymentRepositoryIntegrationTest.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prometheus/prometheus.yml:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_all_docker.sh:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenario_1_base.sh:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/Dockerfile:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/build.gradle.kts:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/config/JacksonConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/config/SecurityConfig.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/ddd/Aggregate.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/ddd/DomainEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/ddd/DomainService.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/ddd/Entity.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/ddd/Factory.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/ddd/Repository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/ddd/ValueObject.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/hexagonal/Adapter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/hexagonal/InBoundPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/common/hexagonal/OutBoundPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/Dockerfile:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/UserServiceDocSwagger.json:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/dto/ChangePasswordRequestDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/dto/DeliveryRequestDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/dto/DeliveryStatusDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/dto/EmailUpdatedResponseDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/dto/PasswordChangedResponseDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/dto/RemainingDurationDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/dto/UpdateEmailRequestDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/dto/UserResponseDTO.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/exception/EmailAlreadyExistException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/exception/InvalidPasswordException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/exception/InvalidUserDataException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/exception/UserAlreadyRegisterException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/exception/UserNotFoundException.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/port/DeliveryPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/port/UserEventPublisherPort.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/repository/UserRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/service/UserService.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/application/service/UserServiceImpl.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/domain/event/UserDeletedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/domain/event/UserEmailUpdatedEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/domain/event/UserEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/domain/event/UserRegisteredEvent.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/domain/model/Email.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/domain/model/Password.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/domain/model/User.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/domain/model/UserId.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/domain/model/UserInfo.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/infrastructure/UserServiceMain.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/infrastructure/adapter/DeliveryAdapter.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/infrastructure/controller/HealthController.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/infrastructure/controller/UserController.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/infrastructure/event/UserEventPublisher.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/infrastructure/repository/InMemoryUserRepository.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/user-context.md:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml:Zone.Identifier" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +372,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C://wsl.localhost/Ubuntu/home/antoineoliver/.gradle/wrapper/dists/gradle-8.14-bin/38aieal9i53h9rfe7vjup95b9/gradle-8.14" javaHome="C:\usr\lib\jvm\java-17-openjdk-amd64" gradleVersion="8.14" />
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$PROJECT_DIR$/../../../../../..//wsl.localhost/Ubuntu/home/antoineoliver/.gradle/wrapper/dists/gradle-8.14-bin/38aieal9i53h9rfe7vjup95b9/gradle-8.14" javaHome="C:\usr\lib\jvm\java-17-openjdk-amd64" gradleVersion="8.14" />
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -78,9 +405,10 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/antoineoliver/projets/SAP/A3/sota-2",
+    "last_opened_file_path": "C:/Users/antoi/Cours3A/SAP/A3/sota-3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -121,7 +449,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeliveryServiceMain">
+  <component name="RunManager">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ENABLE_JMX_AUTH" value="true" />
       <module name="sota-2.api-gateway.main" />
@@ -174,8 +502,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.33" />
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28539.33" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
       </set>
     </attachedChunks>
   </component>
